@@ -1,0 +1,524 @@
+@font-face {
+    font-family: "MolotRegular";
+    src: url("../font/Molot-webfont.eot");
+    src: url("../font/Molot-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/Molot-webfont.woff") format("woff"),
+         url("../font/Molot-webfont.ttf") format("truetype"),
+         url("../font/Molot-webfont.svg#MolotRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "UbuntuTitle";
+    src: url("../font/Ubuntu-Title-webfont.eot");
+    src: url("../font/Ubuntu-Title-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/Ubuntu-Title-webfont.woff") format("woff"),
+         url("../font/Ubuntu-Title-webfont.ttf") format("truetype"),
+         url("../font/Ubuntu-Title-webfont.svg#UbuntuTitle") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "porkysheavy";
+    src: url("../font/porkh___-webfont.eot");
+    src: url("../font/porkh___-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/porkh___-webfont.woff") format("woff"),
+         url("../font/porkh___-webfont.ttf") format("truetype"),
+         url("../font/porkh___-webfont.svg#porkysheavy") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "porkysregular";
+    src: url("../font/porkys_-webfont.eot");
+    src: url("../font/porkys_-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/porkys_-webfont.woff") format("woff"),
+         url("../font/porkys_-webfont.ttf") format("truetype"),
+         url("../font/porkys_-webfont.svg#porkysregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GrandesignNeueSerif";
+    src: url("../font/GrandesignNeueSerif.eot?") format("eot"), 
+         url("../font/GrandesignNeueSerif.woff") format("woff"), 
+         url("../font/GrandesignNeueSerif.ttf")  format("truetype"),
+         url("../font/GrandesignNeueSerif.svg#GrandesignNeueSerif") format("svg");
+}
+
+@font-face {
+    font-family: "AmaranthBold";
+    src: url("../font/Amaranth-Bold-webfont.eot");
+    src: url("../font/Amaranth-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/Amaranth-Bold-webfont.woff") format("woff"),
+         url("../font/Amaranth-Bold-webfont.ttf") format("truetype"),
+         url("../font/Amaranth-Bold-webfont.svg#AmaranthBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "happyregular";
+    src: url("../font/happy_happy_joy_joy-webfont.eot");
+    src: url("../font/happy_happy_joy_joy-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/happy_happy_joy_joy-webfont.woff") format("woff"),
+         url("../font/happy_happy_joy_joy-webfont.ttf") format("truetype"),
+         url("../font/happy_happy_joy_joy-webfont.svg#happyregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "random_houserandom_house";
+    src: url("../font/random_house-webfont.eot");
+    src: url("../font/random_house-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../font/random_house-webfont.woff") format("woff"),
+         url("../font/random_house-webfont.ttf") format("truetype"),
+         url("../font/random_house-webfont.svg#random_houserandom_house") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+background:#FFFFFF;
+text-align:left;
+margin:0 auto;
+padding:0;
+overflow:hidden;
+}
+
+img,
+embed,
+object,
+video
+{
+max-width:100%;
+}
+
+
+a {
+color: #ffffff;
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 1.000em;
+letter-spacing: -1px;
+}
+
+a:visited {
+color: #aaaaaa;
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 1.000em;
+letter-spacing: -1px;
+}
+
+a:hover {
+color: ffffff;
+padding: 0 5px;
+text-decoration: none;
+font-family: verdana, helvetica, arial, sans-serif;
+font-size: 1.000em;
+letter-spacing: -1px;
+}
+
+h2 {
+border: none;
+/*padding: 35px 0 0 0;*/
+font-family: MolotRegular;
+font-size: 2.875em;
+color: #ffffff;
+}
+.principal
+{
+width: 2.2666%; /*2.2666*/
+height: 100%;
+background-color:#B5D200;
+float:left;
+}
+
+.developer, .designer, .lawyer
+{
+width:auto;
+float:left;
+clear:right;
+color: #408E24;
+font-family: AmaranthBold;
+
+}
+
+.designer, .lawyer
+{
+margin-left: 30px;
+}
+
+.integrantes
+{
+display: table;
+width:auto;
+position: absolute;
+bottom: 0;
+
+}
+
+.box {
+background: #FFFFFF;
+width: 2.23%; /*2.23%*/
+height: 100%;
+float: left;
+line-height: 22px;
+padding: 5px 160px 30px 10px;
+}
+
+#box1{background: #5CC4E1; clear:left; color: #000000;}
+#box1 h2{color:#020202;}
+#box1 a{color: #F54;}
+#box2{background: #DC5B21;color:#FFFFFF;}
+#box3{background: #E9E581;color:#FFFFFF;}
+#box4{background: #D43F3F;color:#FFFFFF;}
+#box5{background: #D2D2D3;color:#FFFFFF;}
+#box6{background: #8A0651;color:#FFFFFF;}
+#box7{background: #ABDCD6;color:#FFFFFF;}
+#box8{background: #50d07d;color:#FFFFFF;}
+#box9{background: #ED1C24;color:#FFFFFF;}
+
+
+.box p {
+font-family: GrandesignNeueSerif;
+text-align:justify;
+}
+
+.texto{
+width: 90%;
+}
+.icon-right-open-big, .icon-left-open-big{font-size:30px; color:white; float:right;margin-top:-15px;}
+
+.icon-down-open-big, .icon-up-open-big{font-size:40px; color: white; cursor:pointer;}
+
+.videos
+{
+margin:0 auto;
+padding: 5% 0 0 0;
+width: 50%;
+text-align: center;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+#container {
+width: 4412%;/*4412%;*/
+height: 320px;
+margin: 0;
+padding: 0;
+}
+
+.box {
+background: #FFFFFF;
+width: 2.2666%; /*2.23%*/
+height: 100%;
+float: left;
+line-height: 22px;
+padding: 5px 0px 0px 0px;
+}
+
+h1{
+color:white;
+width:auto;
+text-align:center;	
+font-family: happyregular;
+font-size: 2.1em;
+margin-top: 22%;
+}
+
+h2 {
+margin-top: -0.1%;
+margin-left: 1%;
+font-size: 2em;
+} 
+
+.colunas
+{
+width:  30%;/*230px*/
+height: 160px;
+margin: 3px;
+background-color: #FFFFFF;
+}
+
+#coluna-1
+{
+float:left;
+clear: both;
+}
+
+#coluna-2
+{
+float:left;
+}
+
+#coluna-3
+{
+float: left;
+position: relative;
+}
+
+#box1 img
+{
+width:100%;
+height:160px;
+position:relative;
+}
+
+.description
+{
+position:relative;
+text-align: justify;
+font-size: 0.7em;
+line-height: 10px;
+}
+
+#box1 .icon-right-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -110%;
+margin-left: 92%;
+font-size: 28px;
+}
+
+#box1 .icon-up-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -35%;
+margin-left: 92%;
+font-size: 28px;
+}
+
+.texto{
+margin-top:-6%;
+padding: 0 0 0 4%;
+display:table;
+width: 90%;
+font-size:0.9em;
+}
+
+div.img-left
+{
+display:none;
+}
+
+}
+@media only screen and (min-width: 600px) and (orientation: portrait)
+{
+
+#container {
+width: 4412%;/*4412%;*/
+height: 1024px;
+margin: 0;
+padding: 0;
+}
+
+h1{
+color:white;
+width:auto;
+text-align:center;	
+font-family: happyregular;
+font-size: 2.8125em;
+margin-top: 60%;
+}
+
+h2 {
+font-size: 2em;
+text-align:center;
+}
+
+.box {
+background: #FFFFFF;
+width: 2.2666%; /*2.23%*/
+height: 100%;
+float: left;
+line-height: 22px;
+padding: 5px 0px 0px 0px;
+}
+
+.integrantes
+{
+margin-left: 12%;
+}
+
+.colunas
+{
+width:  88%;/*230px*/
+height: 160px;
+margin: 10px;
+background-color: #FFFFFF;
+}
+
+#box1 img
+{
+width:160px;
+height:160px;
+position:relative;
+float:left;
+}
+
+.description
+{
+position:relative;
+text-align: justify;
+float: right;
+padding: 5px;
+width:66%;
+}
+
+#box1 .icon-right-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -95%;
+margin-left: 90%;
+
+}
+
+#box1 .icon-up-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -30%;
+margin-left: 90%;
+font-size: 28px;
+}
+
+div.img-left
+{
+width:199px;
+height:275px;
+margin:0 auto;
+}
+
+.texto{
+margin: 0 auto;
+display:table;
+width: 90%;
+font-size:1em;
+}
+
+
+}
+@media only screen and (min-width: 992px) {
+
+#container {
+width: 4412%;/*4412%;*/
+height: 768px;
+margin: 0;
+padding: 0;
+}
+
+h1{
+color:white;
+width:auto;
+text-align:center;	
+font-family: happyregular;
+font-size: 2.8125em;
+margin-top: 22%;
+}
+
+.integrantes
+{
+margin-left: 32%;
+}
+
+.colunas
+{
+width:  30%;/*230px*/
+height: 400px;
+margin: 10px;
+background-color: #FFFFFF;
+}
+
+#coluna-1
+{
+float:left;
+clear: both;
+}
+
+#coluna-2
+{
+float:left;
+}
+
+#coluna-3
+{
+float: left;
+position: relative;
+}
+
+#box1 img
+{
+margin:30px;
+width:160px;
+height:160px;
+position:relative;
+}
+
+.description
+{
+position:relative;
+text-align: justify;
+padding: 5px;
+}
+
+#box1 .icon-up-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -24%;
+margin-left: 94%;
+font-size: 28px;
+}
+
+#box1 .icon-right-open-big
+{
+display: block;
+width:auto;
+position: absolute;
+bottom: -95%;
+margin-left: 94%;
+}
+
+.texto{
+margin-top:0;
+padding: 0 0 0 30px;
+}
+
+div.img-left
+{
+float:left;
+width:199px;
+height:275px;
+}
+
+.icos-geek
+{
+position:relative;
+margin: 10px 30px 0 0;
+}
+
+ }
+ 

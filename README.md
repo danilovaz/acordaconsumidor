@@ -33,3 +33,6 @@ If anyone knows the name of the artist, please contact me immediately.
 There is still much to do and so much to improve.
 
 Criticism or suggestions are always welcome.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/danilovaz/acordaconsumidor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
